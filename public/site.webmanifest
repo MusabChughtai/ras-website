@@ -1,6 +1,7 @@
 {
   "name": "RAS",
   "short_name": "RAS",
+  "description": "Robotics & Automation Society (RAS) - Student Chapter at COMSATS University Islamabad, Lahore Campus. Join the most innovative robotics and automation community.",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
@@ -17,5 +18,11 @@
   ],
   "theme_color": "#aa0033",
   "background_color": "#aa0033",
-  "display": "standalone"
+  "display": "standalone",
+  "start_url": "/",
+  "scope": "/",
+  "orientation": "portrait",
+  "lang": "en",
+  "id": "/manifest",
+  "prefer_related_applications": false
 }
