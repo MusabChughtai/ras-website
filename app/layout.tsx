@@ -104,7 +104,6 @@ export const metadata: Metadata = {
     { rel: "icon", type: "image/svg+xml", url: "/favicon.svg" },
     { rel: "shortcut icon", url: "/favicon.ico" },
     { rel: "apple-touch-icon", sizes: "180x180", url: "/apple-touch-icon.png" },
-    { rel: "icon", type: "image/x-icon", sizes: "any", url: "/favicon.ico" },
   ],
   manifest: "/site.webmanifest",
   appleWebApp: {

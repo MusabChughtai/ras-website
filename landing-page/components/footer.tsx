@@ -16,7 +16,7 @@ export default function Footer() {
               </div>
               <div className="flex flex-col">
                 <span className="text-white font-bold text-xl">RAS</span>
-                <span className="text-[#aa0003] text-sm font-medium">CUI Lahore</span>
+                <span className="text-[#aa0033] text-sm font-medium">CUI Lahore</span>
               </div>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed mb-4 max-w-md">
@@ -26,21 +26,21 @@ export default function Footer() {
             <div className="flex gap-3">
               <a
                 href="https://www.facebook.com/rascuilhr/"
-                className="w-10 h-10 rounded-full border border-gray-700 text-gray-400 flex items-center justify-center hover:border-[#aa0003] hover:text-[#aa0003] transition-all duration-300"
+                className="w-10 h-10 rounded-full border border-gray-700 text-gray-400 flex items-center justify-center hover:border-[#aa0033] hover:text-[#aa0033] transition-all duration-300"
                 aria-label="Facebook"
               >
                 <Facebook className="w-5 h-5" />
               </a>
               <a
                 href="https://www.linkedin.com/company/rascui/"
-                className="w-10 h-10 rounded-full border border-gray-700 text-gray-400 flex items-center justify-center hover:border-[#aa0003] hover:text-[#aa0003] transition-all duration-300"
+                className="w-10 h-10 rounded-full border border-gray-700 text-gray-400 flex items-center justify-center hover:border-[#aa0033] hover:text-[#aa0033] transition-all duration-300"
                 aria-label="LinkedIn"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
                 href="https://www.instagram.com/ras.cui/"
-                className="w-10 h-10 rounded-full border border-gray-700 text-gray-400 flex items-center justify-center hover:border-[#aa0003] hover:text-[#aa0003] transition-all duration-300"
+                className="w-10 h-10 rounded-full border border-gray-700 text-gray-400 flex items-center justify-center hover:border-[#aa0033] hover:text-[#aa0033] transition-all duration-300"
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5" />
@@ -63,7 +63,7 @@ export default function Footer() {
                 <li key={link.label}>
                   <Link
                     href={link.href}
-                    className="text-gray-400 hover:text-[#aa0003] transition-colors duration-300 text-sm"
+                    className="text-gray-400 hover:text-[#aa0033] transition-colors duration-300 text-sm"
                   >
                     {link.label}
                   </Link>
@@ -78,7 +78,7 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start gap-2 text-gray-400">
                 <svg
-                  className="w-5 h-5 text-[#aa0003] flex-shrink-0 mt-0.5"
+                  className="w-5 h-5 text-[#aa0033] flex-shrink-0 mt-0.5"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -100,7 +100,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2 text-gray-400">
                 <svg
-                  className="w-5 h-5 text-[#aa0003] flex-shrink-0"
+                  className="w-5 h-5 text-[#aa0033] flex-shrink-0"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -116,7 +116,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2 text-gray-400">
                 <svg
-                  className="w-5 h-5 text-[#aa0003] flex-shrink-0"
+                  className="w-5 h-5 text-[#aa0033] flex-shrink-0"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"

@@ -14,7 +14,7 @@ export default function TeamDetail({ team }: TeamDetailProps) {
         {/* Back Button */}
         <Link
           href="/groups"
-          className="inline-flex items-center gap-2 text-gray-400 hover:text-[#aa0003] transition-colors duration-300 mb-8"
+          className="inline-flex items-center gap-2 text-gray-400 hover:text-[#aa0033] transition-colors duration-300 mb-8"
         >
           <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
@@ -38,7 +38,7 @@ export default function TeamDetail({ team }: TeamDetailProps) {
         {/* Mission */}
         <div className="bg-[#2a2a2a] rounded-2xl p-8 mb-8 border border-gray-800">
           <h2 className="text-2xl font-bold text-white mb-4 flex items-center gap-3">
-            <span className="text-[#aa0003]">🎯</span>
+            <span className="text-[#aa0033]">🎯</span>
             Mission
           </h2>
           <p className="text-gray-300 leading-relaxed text-lg">{team.mission}</p>
@@ -47,7 +47,7 @@ export default function TeamDetail({ team }: TeamDetailProps) {
         {/* Responsibilities */}
         <div className="bg-[#2a2a2a] rounded-2xl p-8 border border-gray-800">
           <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
-            <span className="text-[#aa0003]">📋</span>
+            <span className="text-[#aa0033]">📋</span>
             Key Responsibilities
           </h2>
           <ul className="space-y-4">
@@ -63,7 +63,7 @@ export default function TeamDetail({ team }: TeamDetailProps) {
         {/* Team Members Section (Placeholder) */}
         <div className="bg-[#2a2a2a] rounded-2xl p-8 mt-8 border border-gray-800">
           <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
-            <span className="text-[#aa0003]">👥</span>
+            <span className="text-[#aa0033]">👥</span>
             Team Members
           </h2>
           <p className="text-gray-400 text-center py-8">Team member profiles coming soon...</p>

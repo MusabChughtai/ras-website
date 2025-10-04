@@ -14,11 +14,11 @@ export default function EventHighlights({ data }: EventHighlightsProps) {
           {data.highlights.map((highlight, index) => (
             <div
               key={index}
-              className="bg-[#2a2a2a] p-6 rounded-lg border border-gray-700 hover:border-[#aa0003] transition-all duration-300 group"
+              className="bg-[#2a2a2a] p-6 rounded-lg border border-gray-700 hover:border-[#aa0033] transition-all duration-300 group"
             >
               <div className="flex items-start gap-4">
-                <div className="flex-shrink-0 w-12 h-12 bg-[#aa0003]/10 rounded-lg flex items-center justify-center group-hover:bg-[#aa0003]/20 transition-colors duration-300">
-                  <svg className="w-6 h-6 text-[#aa0003]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="flex-shrink-0 w-12 h-12 bg-[#aa0033]/10 rounded-lg flex items-center justify-center group-hover:bg-[#aa0033]/20 transition-colors duration-300">
+                  <svg className="w-6 h-6 text-[#aa0033]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>

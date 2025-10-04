@@ -13,10 +13,10 @@ export default function ContributorCard({ contributor }: ContributorCardProps) {
   const [imageError, setImageError] = useState(false)
 
   return (
-    <div className="bg-[#2a2a2a] rounded-lg overflow-hidden border border-gray-700 hover:border-[#aa0003] transition-all duration-300 group">
+    <div className="bg-[#2a2a2a] rounded-lg overflow-hidden border border-gray-700 hover:border-[#aa0033] transition-all duration-300 group">
       <div className="p-8">
         {/* Profile Image */}
-        <div className="relative w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden bg-[#1a1a1a] border-4 border-[#aa0003]">
+        <div className="relative w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden bg-[#1a1a1a] border-4 border-[#aa0033]">
           {!imageError ? (
             <Image
               src={contributor.imageUrl || "/placeholder.svg"}
@@ -42,7 +42,7 @@ export default function ContributorCard({ contributor }: ContributorCardProps) {
         {/* Info */}
         <div className="text-center mb-6">
           <h3 className="text-2xl font-bold text-white mb-2">{contributor.name}</h3>
-          <p className="text-[#aa0003] font-semibold mb-4">{contributor.role}</p>
+          <p className="text-[#aa0033] font-semibold mb-4">{contributor.role}</p>
           <p className="text-gray-300 leading-relaxed">{contributor.description}</p>
         </div>
 
@@ -53,7 +53,7 @@ export default function ContributorCard({ contributor }: ContributorCardProps) {
               href={contributor.linkedIn}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-12 h-12 bg-[#1a1a1a] rounded-lg flex items-center justify-center hover:bg-[#aa0003] transition-colors duration-300 group"
+              className="w-12 h-12 bg-[#1a1a1a] rounded-lg flex items-center justify-center hover:bg-[#aa0033] transition-colors duration-300 group"
             >
               <Linkedin className="w-5 h-5 text-gray-300 group-hover:text-white" />
             </a>
@@ -63,7 +63,7 @@ export default function ContributorCard({ contributor }: ContributorCardProps) {
               href={contributor.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-12 h-12 bg-[#1a1a1a] rounded-lg flex items-center justify-center hover:bg-[#aa0003] transition-colors duration-300 group"
+              className="w-12 h-12 bg-[#1a1a1a] rounded-lg flex items-center justify-center hover:bg-[#aa0033] transition-colors duration-300 group"
             >
               <Github className="w-5 h-5 text-gray-300 group-hover:text-white" />
             </a>
@@ -73,7 +73,7 @@ export default function ContributorCard({ contributor }: ContributorCardProps) {
               href={contributor.portfolio}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-12 h-12 bg-[#1a1a1a] rounded-lg flex items-center justify-center hover:bg-[#aa0003] transition-colors duration-300 group"
+              className="w-12 h-12 bg-[#1a1a1a] rounded-lg flex items-center justify-center hover:bg-[#aa0033] transition-colors duration-300 group"
             >
               <Globe className="w-5 h-5 text-gray-300 group-hover:text-white" />
             </a>

@@ -29,7 +29,7 @@ export default function SponsorsPage() {
             </p>
             <a
               href="mailto:ras@cuilahore.edu.pk"
-              className="inline-block bg-[#aa0003] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#880002] transition-all duration-300 transform hover:scale-105"
+              className="inline-block bg-[#aa0033] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#880002] transition-all duration-300 transform hover:scale-105"
             >
               Contact Us
             </a>

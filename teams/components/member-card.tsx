@@ -13,14 +13,14 @@ export default function MemberCard({ member }: MemberCardProps) {
   const [imageError, setImageError] = useState(false)
 
   return (
-    <div className="group relative bg-gradient-to-br from-[#2a2a2a] to-[#1a1a1a] rounded-xl p-6 border border-gray-800 hover:border-[#aa0003] transition-all duration-300 hover:shadow-xl hover:shadow-[#aa0003]/20 hover:-translate-y-2">
+    <div className="group relative bg-gradient-to-br from-[#2a2a2a] to-[#1a1a1a] rounded-xl p-6 border border-gray-800 hover:border-[#aa0033] transition-all duration-300 hover:shadow-xl hover:shadow-[#aa0033]/20 hover:-translate-y-2">
       {/* Emoji Badge */}
-      <div className="absolute -top-4 -right-4 w-12 h-12 bg-[#aa0003] rounded-full flex items-center justify-center text-2xl shadow-lg group-hover:scale-110 transition-transform duration-300 z-10">
+      <div className="absolute -top-4 -right-4 w-12 h-12 bg-[#aa0033] rounded-full flex items-center justify-center text-2xl shadow-lg group-hover:scale-110 transition-transform duration-300 z-10">
         {member.emoji}
       </div>
 
       <div className="flex items-start gap-4 mb-4">
-        <div className="relative w-20 h-20 rounded-full overflow-hidden bg-gray-800 border-2 border-gray-700 group-hover:border-[#aa0003] transition-colors duration-300 flex-shrink-0">
+        <div className="relative w-20 h-20 rounded-full overflow-hidden bg-gray-800 border-2 border-gray-700 group-hover:border-[#aa0033] transition-colors duration-300 flex-shrink-0">
           {member.imageUrl && !imageError ? (
             <Image
               src={member.imageUrl || "/placeholder.svg"}
@@ -38,7 +38,7 @@ export default function MemberCard({ member }: MemberCardProps) {
 
         {/* Content */}
         <div className="flex-1 space-y-2">
-          <h3 className="text-xl font-bold text-white group-hover:text-[#aa0003] transition-colors duration-300">
+          <h3 className="text-xl font-bold text-white group-hover:text-[#aa0033] transition-colors duration-300">
             {member.name}
           </h3>
           <p className="text-gray-400 text-sm leading-relaxed">{member.role}</p>
@@ -51,7 +51,7 @@ export default function MemberCard({ member }: MemberCardProps) {
           href={member.linkedIn}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 mt-4 px-4 py-2 bg-[#aa0003] text-white rounded-lg hover:bg-[#880002] transition-colors duration-300 text-sm font-medium"
+          className="inline-flex items-center gap-2 mt-4 px-4 py-2 bg-[#aa0033] text-white rounded-lg hover:bg-[#880002] transition-colors duration-300 text-sm font-medium"
         >
           <Linkedin className="w-4 h-4" />
           Connect
@@ -59,7 +59,7 @@ export default function MemberCard({ member }: MemberCardProps) {
       )}
 
       {/* Hover Effect Overlay */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#aa0003]/0 to-[#aa0003]/0 group-hover:from-[#aa0003]/5 group-hover:to-[#aa0003]/10 rounded-xl transition-all duration-300 pointer-events-none" />
+      <div className="absolute inset-0 bg-gradient-to-br from-[#aa0033]/0 to-[#aa0033]/0 group-hover:from-[#aa0033]/5 group-hover:to-[#aa0033]/10 rounded-xl transition-all duration-300 pointer-events-none" />
     </div>
   )
 }

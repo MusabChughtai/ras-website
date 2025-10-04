@@ -10,7 +10,7 @@ export default function TeamGrid() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            Our <span className="text-[#aa0003]">Groups</span>
+            Our <span className="text-[#aa0033]">Groups</span>
           </h2>
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             Meet the talented teams that make RAS CUI Lahore a thriving community of innovation and excellence.

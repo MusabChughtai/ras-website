@@ -12,7 +12,7 @@ export default function TeamsPage() {
           {/* Page Header */}
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-4">
-              Meet Our <span className="text-[#aa0003]">Team</span>
+              Meet Our <span className="text-[#aa0033]">Team</span>
             </h1>
             <p className="text-gray-400 text-lg md:text-xl max-w-3xl mx-auto leading-relaxed">
               The brilliant minds driving innovation and excellence at RAS CUI Lahore

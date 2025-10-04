@@ -10,7 +10,7 @@ export default function Register() {
     <section id="register" className="py-20 bg-gradient-to-b from-[#0f0f0f] to-[#1a1a1a] relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#aa0003_2px,transparent_2px)] bg-[size:4rem_4rem]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,#aa0033_2px,transparent_2px)] bg-[size:4rem_4rem]" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -18,9 +18,9 @@ export default function Register() {
           {/* Left Content */}
           <div>
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6">
-              Join <span className="text-[#aa0003]">RAS</span> Today
+              Join <span className="text-[#aa0033]">RAS</span> Today
             </h2>
-            <div className="w-24 h-1 bg-[#aa0003] mb-6" />
+            <div className="w-24 h-1 bg-[#aa0033] mb-6" />
 
             <p className="text-gray-400 text-lg mb-8 leading-relaxed">
               Become part of the most innovative robotics and automation community at COMSATS University. Register now
@@ -29,8 +29,8 @@ export default function Register() {
 
             <div className="space-y-6">
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-[#aa0003]/20 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <svg className="w-6 h-6 text-[#aa0003]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-12 h-12 bg-[#aa0033]/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg className="w-6 h-6 text-[#aa0033]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
@@ -41,8 +41,8 @@ export default function Register() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-[#aa0003]/20 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <svg className="w-6 h-6 text-[#aa0003]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-12 h-12 bg-[#aa0033]/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg className="w-6 h-6 text-[#aa0033]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
@@ -53,8 +53,8 @@ export default function Register() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-[#aa0003]/20 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <svg className="w-6 h-6 text-[#aa0003]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-12 h-12 bg-[#aa0033]/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg className="w-6 h-6 text-[#aa0033]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
@@ -65,8 +65,8 @@ export default function Register() {
               </div>
 
               <div className="flex items-start gap-4">
-                <div className="w-12 h-12 bg-[#aa0003]/20 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <svg className="w-6 h-6 text-[#aa0003]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-12 h-12 bg-[#aa0033]/20 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg className="w-6 h-6 text-[#aa0033]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
@@ -84,7 +84,7 @@ export default function Register() {
               href="https://your-registration-link.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-8 py-4 bg-[#aa0003] text-white font-semibold rounded-lg hover:bg-[#880002] transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-[#aa0003]/50 text-center text-lg"
+              className="px-8 py-4 bg-[#aa0033] text-white font-semibold rounded-lg hover:bg-[#880002] transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-[#aa0033]/50 text-center text-lg"
             >
               Register Now
             </a>

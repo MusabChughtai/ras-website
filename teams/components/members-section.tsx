@@ -13,7 +13,7 @@ export default function MembersSection({ title, subtitle, members }: MembersSect
       <div className="text-center mb-12">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-3">{title}</h2>
         <p className="text-gray-400 text-lg">{subtitle}</p>
-        <div className="w-24 h-1 bg-[#aa0003] mx-auto mt-4 rounded-full" />
+        <div className="w-24 h-1 bg-[#aa0033] mx-auto mt-4 rounded-full" />
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">

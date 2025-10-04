@@ -13,7 +13,7 @@ export default function NewsletterCard({ newsletter }: NewsletterCardProps) {
   const [imageError, setImageError] = useState(false)
 
   return (
-    <div className="bg-[#2a2a2a] rounded-lg overflow-hidden border border-gray-700 hover:border-[#aa0003] transition-all duration-300 group">
+    <div className="bg-[#2a2a2a] rounded-lg overflow-hidden border border-gray-700 hover:border-[#aa0033] transition-all duration-300 group">
       {/* Cover Image */}
       <div className="relative aspect-[3/4] bg-[#1a1a1a]">
         {!imageError ? (
@@ -44,14 +44,14 @@ export default function NewsletterCard({ newsletter }: NewsletterCardProps) {
           <Calendar className="w-4 h-4" />
           <span>{newsletter.date}</span>
         </div>
-        <h3 className="text-xl font-bold text-white mb-2 group-hover:text-[#aa0003] transition-colors duration-300">
+        <h3 className="text-xl font-bold text-white mb-2 group-hover:text-[#aa0033] transition-colors duration-300">
           {newsletter.title}
         </h3>
         <p className="text-gray-300 mb-4">{newsletter.description}</p>
         <a
           href={newsletter.pdfUrl}
           download
-          className="inline-flex items-center gap-2 bg-[#aa0003] text-white px-4 py-2 rounded-lg hover:bg-[#880002] transition-colors duration-300"
+          className="inline-flex items-center gap-2 bg-[#aa0033] text-white px-4 py-2 rounded-lg hover:bg-[#880002] transition-colors duration-300"
         >
           <Download className="w-4 h-4" />
           <span>Download PDF</span>

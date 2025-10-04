@@ -24,7 +24,7 @@ export const teamsData: Team[] = [
     name: "Tech Ninjas",
     description: "Masters of code and innovation, building the future one line at a time.",
     icon: "💻",
-    color: "#aa0003",
+    color: "#aa0033",
     mission: "To develop cutting-edge technical solutions and maintain the society's digital infrastructure.",
     responsibilities: [
       "Website development and maintenance",

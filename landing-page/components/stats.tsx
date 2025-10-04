@@ -55,16 +55,16 @@ export default function Stats() {
     <section id="stats" ref={sectionRef} className="py-20 bg-[#1a1a1a] relative overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute inset-0 bg-[linear-gradient(45deg,#aa0003_25%,transparent_25%,transparent_75%,#aa0003_75%,#aa0003),linear-gradient(45deg,#aa0003_25%,transparent_25%,transparent_75%,#aa0003_75%,#aa0003)] bg-[size:2rem_2rem] bg-[position:0_0,1rem_1rem]" />
+        <div className="absolute inset-0 bg-[linear-gradient(45deg,#aa0033_25%,transparent_25%,transparent_75%,#aa0033_75%,#aa0033),linear-gradient(45deg,#aa0033_25%,transparent_25%,transparent_75%,#aa0033_75%,#aa0033)] bg-[size:2rem_2rem] bg-[position:0_0,1rem_1rem]" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
-            Our <span className="text-[#aa0003]">Impact</span>
+            Our <span className="text-[#aa0033]">Impact</span>
           </h2>
-          <div className="w-24 h-1 bg-[#aa0003] mx-auto mb-6" />
+          <div className="w-24 h-1 bg-[#aa0033] mx-auto mb-6" />
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             Numbers that showcase our commitment to excellence and innovation
           </p>
@@ -75,13 +75,13 @@ export default function Stats() {
           {stats.map((stat, index) => (
             <div
               key={index}
-              className="group bg-gradient-to-br from-[#2a2a2a] to-[#1f1f1f] p-8 rounded-xl border border-gray-800 hover:border-[#aa0003] transition-all duration-300 hover:transform hover:scale-105 hover:shadow-xl hover:shadow-[#aa0003]/20 text-center"
+              className="group bg-gradient-to-br from-[#2a2a2a] to-[#1f1f1f] p-8 rounded-xl border border-gray-800 hover:border-[#aa0033] transition-all duration-300 hover:transform hover:scale-105 hover:shadow-xl hover:shadow-[#aa0033]/20 text-center"
             >
               {/* Icon */}
               <div className="text-5xl mb-4 group-hover:scale-110 transition-transform duration-300">{stat.icon}</div>
 
               {/* Counter */}
-              <div className="text-4xl sm:text-5xl font-bold text-[#aa0003] mb-2">
+              <div className="text-4xl sm:text-5xl font-bold text-[#aa0033] mb-2">
                 {counters[index]}
                 {stat.suffix}
               </div>
@@ -92,7 +92,7 @@ export default function Stats() {
               {/* Animated Bar */}
               <div className="mt-4 h-1 bg-gray-700 rounded-full overflow-hidden">
                 <div
-                  className="h-full bg-[#aa0003] transition-all duration-2000 ease-out"
+                  className="h-full bg-[#aa0033] transition-all duration-2000 ease-out"
                   style={{
                     width: hasAnimated ? "100%" : "0%",
                     transitionDelay: `${index * 200}ms`,
@@ -107,15 +107,15 @@ export default function Stats() {
         <div className="mt-16 grid md:grid-cols-3 gap-8">
           <div className="bg-[#2a2a2a] p-6 rounded-xl border border-gray-800 text-center">
             <h3 className="text-xl font-bold text-white mb-2">Established</h3>
-            <p className="text-[#aa0003] text-2xl font-bold">2018</p>
+            <p className="text-[#aa0033] text-2xl font-bold">2018</p>
           </div>
           <div className="bg-[#2a2a2a] p-6 rounded-xl border border-gray-800 text-center">
             <h3 className="text-xl font-bold text-white mb-2">University</h3>
-            <p className="text-[#aa0003] text-lg font-bold">COMSATS Lahore</p>
+            <p className="text-[#aa0033] text-lg font-bold">COMSATS Lahore</p>
           </div>
           <div className="bg-[#2a2a2a] p-6 rounded-xl border border-gray-800 text-center">
             <h3 className="text-xl font-bold text-white mb-2">Affiliation</h3>
-            <p className="text-[#aa0003] text-2xl font-bold">IEEE</p>
+            <p className="text-[#aa0033] text-2xl font-bold">IEEE</p>
           </div>
         </div>
       </div>

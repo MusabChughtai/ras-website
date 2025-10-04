@@ -76,7 +76,7 @@ export default function SponsorCard({ sponsor }: SponsorCardProps) {
           href={sponsor.website}
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center justify-center gap-2 bg-[#aa0003] text-white px-6 py-3 rounded-lg hover:bg-[#880002] transition-colors duration-300 font-semibold"
+          className="flex items-center justify-center gap-2 bg-[#aa0033] text-white px-6 py-3 rounded-lg hover:bg-[#880002] transition-colors duration-300 font-semibold"
         >
           <span>Visit Website</span>
           <ExternalLink className="w-4 h-4" />

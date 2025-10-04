@@ -15,7 +15,7 @@ export default function EventHero({ data }: EventHeroProps) {
         {/* Title */}
         <div className="mb-8">
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-4 tracking-tight">{data.title}</h1>
-          <p className="text-xl md:text-2xl text-[#aa0003] font-semibold">{data.tagline}</p>
+          <p className="text-xl md:text-2xl text-[#aa0033] font-semibold">{data.tagline}</p>
         </div>
 
         {/* Description */}
@@ -24,7 +24,7 @@ export default function EventHero({ data }: EventHeroProps) {
         {/* Event Details */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12">
           <div className="flex items-center gap-3 text-gray-300">
-            <svg className="w-6 h-6 text-[#aa0003]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-6 h-6 text-[#aa0033]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -35,7 +35,7 @@ export default function EventHero({ data }: EventHeroProps) {
             <span className="font-medium">{data.date}</span>
           </div>
           <div className="flex items-center gap-3 text-gray-300">
-            <svg className="w-6 h-6 text-[#aa0003]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-6 h-6 text-[#aa0033]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path
                 strokeLinecap="round"
                 strokeLinejoin="round"
@@ -50,7 +50,7 @@ export default function EventHero({ data }: EventHeroProps) {
 
         {/* CTA Button */}
         {data.registrationOpen ? (
-          <button className="bg-[#aa0003] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#880002] transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-[#aa0003]/50">
+          <button className="bg-[#aa0033] text-white px-8 py-4 rounded-lg font-semibold text-lg hover:bg-[#880002] transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-[#aa0033]/50">
             Register Now
           </button>
         ) : (

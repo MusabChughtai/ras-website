@@ -66,7 +66,7 @@ export default function Navbar() {
             </div>
             <div className="flex flex-col">
               <span className="text-white font-bold text-lg md:text-xl">RAS</span>
-              <span className="text-[#aa0003] text-xs md:text-sm font-medium">CUI Lahore</span>
+              <span className="text-[#aa0033] text-xs md:text-sm font-medium">CUI Lahore</span>
             </div>
           </Link>
 
@@ -85,8 +85,8 @@ export default function Navbar() {
                   (link.href === "/newsletter" && pathname.startsWith("/newsletter")) ||
                   (link.href === "/sponsors" && pathname.startsWith("/sponsors")) ||
                   (link.href === "/contributors" && pathname.startsWith("/contributors"))
-                    ? "text-[#aa0003]"
-                    : "text-gray-300 hover:text-[#aa0003]"
+                    ? "text-[#aa0033]"
+                    : "text-gray-300 hover:text-[#aa0033]"
                 }`}
               >
                 {link.label}
@@ -127,8 +127,8 @@ export default function Navbar() {
                   (link.href === "/newsletter" && pathname.startsWith("/newsletter")) ||
                   (link.href === "/sponsors" && pathname.startsWith("/sponsors")) ||
                   (link.href === "/contributors" && pathname.startsWith("/contributors"))
-                    ? "bg-[#aa0003] text-white"
-                    : "text-gray-300 hover:bg-[#aa0003] hover:text-white"
+                    ? "bg-[#aa0033] text-white"
+                    : "text-gray-300 hover:bg-[#aa0033] hover:text-white"
                 }`}
               >
                 {link.label}

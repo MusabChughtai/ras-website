@@ -53,7 +53,7 @@ export default function Events() {
       case "Seminar":
         return "bg-green-600"
       case "Competition":
-        return "bg-[#aa0003]"
+        return "bg-[#aa0033]"
       case "Hackathon":
         return "bg-purple-600"
       default:
@@ -67,9 +67,9 @@ export default function Events() {
         {/* Section Header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-4">
-            Events & <span className="text-[#aa0003]">Seminars</span>
+            Events & <span className="text-[#aa0033]">Seminars</span>
           </h2>
-          <div className="w-24 h-1 bg-[#aa0003] mx-auto mb-6" />
+          <div className="w-24 h-1 bg-[#aa0033] mx-auto mb-6" />
           <p className="text-gray-400 text-lg max-w-2xl mx-auto">
             Explore our exciting lineup of workshops, competitions, and learning opportunities
           </p>
@@ -80,7 +80,7 @@ export default function Events() {
           {events.map((event, index) => (
             <div
               key={index}
-              className="group bg-[#2a2a2a] rounded-xl overflow-hidden border border-gray-800 hover:border-[#aa0003] transition-all duration-300 hover:transform hover:scale-105 hover:shadow-xl hover:shadow-[#aa0003]/20"
+              className="group bg-[#2a2a2a] rounded-xl overflow-hidden border border-gray-800 hover:border-[#aa0033] transition-all duration-300 hover:transform hover:scale-105 hover:shadow-xl hover:shadow-[#aa0033]/20"
             >
               {/* Event Image */}
               <div className="relative h-48 overflow-hidden">
@@ -105,7 +105,7 @@ export default function Events() {
               {/* Event Content */}
               <div className="p-6">
                 <div className="flex items-center gap-2 mb-3">
-                  <svg className="w-4 h-4 text-[#aa0003]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className="w-4 h-4 text-[#aa0033]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path
                       strokeLinecap="round"
                       strokeLinejoin="round"
@@ -113,16 +113,16 @@ export default function Events() {
                       d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
                     />
                   </svg>
-                  <span className="text-[#aa0003] text-sm font-semibold">{event.date}</span>
+                  <span className="text-[#aa0033] text-sm font-semibold">{event.date}</span>
                 </div>
 
-                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#aa0003] transition-colors duration-300">
+                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#aa0033] transition-colors duration-300">
                   {event.title}
                 </h3>
 
                 <p className="text-gray-400 text-sm leading-relaxed mb-4">{event.description}</p>
 
-                <button className="text-[#aa0003] font-semibold text-sm hover:underline flex items-center gap-2 group/btn">
+                <button className="text-[#aa0033] font-semibold text-sm hover:underline flex items-center gap-2 group/btn">
                   Learn More
                   <svg
                     className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform duration-300"
@@ -140,7 +140,7 @@ export default function Events() {
 
         {/* View All Events Button */}
         <div className="text-center mt-12">
-          <button className="px-8 py-3 bg-transparent border-2 border-[#aa0003] text-[#aa0003] font-semibold rounded-lg hover:bg-[#aa0003] hover:text-white transition-all duration-300">
+          <button className="px-8 py-3 bg-transparent border-2 border-[#aa0033] text-[#aa0033] font-semibold rounded-lg hover:bg-[#aa0033] hover:text-white transition-all duration-300">
             View All Events
           </button>
         </div>

@@ -44,7 +44,7 @@ export default function Navbar() {
             </div>
             <div className="flex flex-col">
               <span className="text-white font-bold text-lg md:text-xl">RAS</span>
-              <span className="text-[#aa0003] text-xs md:text-sm font-medium">CUI Lahore</span>
+              <span className="text-[#aa0033] text-xs md:text-sm font-medium">CUI Lahore</span>
             </div>
           </Link>
 
@@ -54,7 +54,7 @@ export default function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-gray-300 hover:text-[#aa0003] transition-colors duration-300 font-medium text-sm lg:text-base"
+                className="text-gray-300 hover:text-[#aa0033] transition-colors duration-300 font-medium text-sm lg:text-base"
               >
                 {link.label}
               </Link>
@@ -85,7 +85,7 @@ export default function Navbar() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setIsMobileMenuOpen(false)}
-                className="block px-4 py-3 text-gray-300 hover:bg-[#aa0003] hover:text-white transition-colors duration-300"
+                className="block px-4 py-3 text-gray-300 hover:bg-[#aa0033] hover:text-white transition-colors duration-300"
               >
                 {link.label}
               </Link>
